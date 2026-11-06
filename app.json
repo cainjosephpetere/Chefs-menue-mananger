@@ -1,18 +1,12 @@
 {
   "expo": {
     "name": "Chef's Menu Manager",
-    "slug": "chefs-menu-manager-part2",
+    "slug": "chefs-menu-manager",
     "version": "1.0.0",
     "orientation": "portrait",
-    "userInterfaceStyle": "dark",
-    "splash": {
-      "resizeMode": "contain",
-      "backgroundColor": "#151922"
-    },
+    "userInterfaceStyle": "light",
     "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#151922"
-      }
+      "package": "com.chefsmenu.manager"
     },
     "plugins": [
       "expo-status-bar"
