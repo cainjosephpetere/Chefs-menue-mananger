@@ -1,39 +1,8 @@
-# Chef's Menu Manager — Part 2
-
-A React Native / Expo implementation of Part 2 using the same dark navy, gold,
-green, blue and pink visual style as the supplied reference screenshot.
-
-## Included
-
-- Chef's Menu Manager title and consistent dark UI
-- Add New Dish form
-- Dish Name
-- Description
-- Course selection: Starter / Main / Dessert
-- Price
-- Required-field validation
-- Invalid-price validation
-- Success confirmation
-- Multiple menu items
-- Automatic list update after adding a dish
-- Responsive layout for phone screens
-
-## Deliberately not implemented for Part 2
-
-Search, filtering, editing, deleting and menu-statistics functionality are
-left out because the brief says those features are for the Final PoE.
-
-## Run
-
-1. Install Node.js.
-2. Open this folder in VS Code.
-3. Run:
-
-   npm install
-   npx expo start
-
-4. Scan the QR code using Expo Go, or press `a` for Android / `w` for web.
-
-The initial menu items are sample data so the display is populated when the app
-first launches. New items are stored in React state and immediately appear in
-the list.
+> Why do I have a folder named ".expo" in my project?
+The ".expo" folder is created when an Expo project is started using "expo start" command.
+> What do the files contain?
+- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
+- "settings.json": contains the server configuration that is used to serve the application manifest.
+> Should I commit the ".expo" folder?
+No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
+Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
